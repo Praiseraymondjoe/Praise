@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+   
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style-type: none;
+}
+
+.nav_contanier{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+}
+.detail{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    right: 2%;
+    top: 2%;
+}
+.landing_page_contanier{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+}
+.botton_container{
+    margin-top: 5%;
+    width: 15%;
+    height: 10%;
+}
+.Me{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 7rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    background-image: linear-gradient(blue,indigo);
+    font-family: sans-serif;
+    font-size: 85%;
+    border-radius: 5rem;
+    color: white;
+    border: none;
+}
+
+
+.nav_lists{
+    display: flex;
+    gap: 3rem;
+}
+.image_button{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    left: 5%;
+    top: 20%;
+    background-image: linear-gradient(blue,indigo);
+    border: none;
+}
+.position{
+    position: absolute;
+    bottom: 9%;
+    border-radius: 50%;
+    width: 10%;
+    height: 20%;
+    right: 20%;
+    background-image: linear-gradient(blue,indigo);
+    border: none;
+    
+}
+.list_items{
+    color: white;
+}
+.bio_detail{
+    color: blue;
+}
+.text{
+    flex: 4;
+}
+
+.about_container{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+.skills_list_progress_one{
+    display: flex;
+    flex-direction: column;
+}
+
+.skils_progress_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.education_detail{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.education_sub_contanier{
+    background-image: linear-gradient(blue,indigo);
+    width: 30%;
+    height: 30%;
+    border-radius: 10rem;
+}
+.sub_contanier{
+    margin-top: 3rem;
+    color: darkblue;
+    position: relative;
+    right: 35%;
+}
+.language_tittle{
+    position: relative;
+    right: 0%;
+    left: 270%;
+    background-image: linear-gradient(blue,indigo);
+    width: 30%;
+    height: 30%;
+    border-radius: 10rem;
+}
+.projects_tittle{
+    text-align: center;
+    margin-top: 10rem;
+}
+.about_title_general_skills_style{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.about_sub_title{
+    margin-bottom: 1rem;
+}
+.gram_items{
+    color: darkblue;
+}
+.picture_container{
+    width: 7rem;
+    height: 7rem;
+    width: 45%;
+    margin: 0 auto;
+}
+.picture_detail{
+    width: 10%;
+    background-image: linear-gradient(blue,indigo);
+    position: absolute;
+    right: 85%;
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+.tittle{
+    color: darkblue;
+    position: absolute;
+    bottom: 0%;
+    top: 215%;
+    right: 70%;
+}
+.tittle_header{
+    position: absolute;
+    right: 40%;
+    bottom: 0%;
+    top: 221%;
+    text-transform: lowercase;
+}
+.picture_contanier_2{
+    width: 7rem;
+    height: 7rem;
+    width: 45%;
+    margin: 0 auto;
+    position: absolute;
+    right: 2%;
+}
+.tittle_2{
+    color: darkblue;
+    position: absolute;
+    right: 7%;
+}
+.tittle_header_2{
+    position: absolute;
+    right: 0%;
+    left: 82%;
+    bottom: 0%;
+    top: 225%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
